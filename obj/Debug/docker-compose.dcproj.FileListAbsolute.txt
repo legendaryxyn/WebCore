@@ -1,0 +1,7 @@
+D:\AspCore\WebCore\bin\Debug\WebCore.Views.dll
+D:\AspCore\WebCore\bin\Debug\WebCore.Views.pdb
+D:\AspCore\WebCore\bin\Debug\WebCore.dll
+D:\AspCore\WebCore\bin\Debug\WebCore.pdb
+D:\AspCore\WebCore\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+D:\AspCore\WebCore\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\AspCore\WebCore\obj\Debug\docker-compose.dcproj.CopyComplete

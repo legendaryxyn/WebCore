@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webcore:
+    image: ${DOCKER_REGISTRY-}webcore
+    build:
+      context: .
+      dockerfile: WebCore/Dockerfile

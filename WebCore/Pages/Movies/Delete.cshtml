@@ -1,0 +1,64 @@
+﻿@page
+@model WebCore.Pages.Movies.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Movie.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie.ReleaseDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Movie.ReleaseDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie.Genre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Movie.Genre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Movie.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Movie.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie.PhoneNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Movie.PhoneNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Movie.Country)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Movie.Country)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Movie.Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
